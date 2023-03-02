@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Live Bus location!
+        </title>
+        <meta name="viewport" content="width=device-width" initial-scale="'1.0">
+        <link rel="stylesheet" href="home.css">
+        <!--this is for the bus symbol-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+      <div class="header">
+        <ul>
+            <i style="font-size:24px" class="fa">&#xf207;</i>
+            <li class="mainlogo">SpotBus!</li>
+            <li class="info"><a href="https://www.citchennai.edu.in/infrastructure/transport/" target="_blank">About</a></li>
+            <li class="contribute"><a href="contribute.html" >Contribute?</a></li>
+            <li class="missed"><a href="https://www.google.com/maps/dir/Chennai+Institute+of+Technology,+CHENNAI+INSTITUTE+OF+TECHNOLOGY,+Sarathy+Nagar,+Kundrathur,+Chennai,+Tamil+Nadu//@12.9724569,80.0095616,13z/data=!4m9!4m8!1m5!1m1!1s0x3a52f4d07355bab5:0xbb6063169c4ed4d9!2m2!1d80.0446669!2d12.9723756!1m0!3e3">I Missed My Bus</a></li>
+            <li class="who"><a href="https://twitter.com/guhanout" target="_blank">Who Are We?</a></li>
+            <li class="feedback"><a href="https://forms.gle/mPjYik7YWDnrokim8">Feedback</a></li>
+            
+        </ul>
+      </div>
+      <div class="line-1">
+        <hr>
+      </div>
+      <h1 style="font-size:25px; text-align:center;">Attention Please!</h1>
+      <div class="notice-board">
+        <ul>
+            
+            <li>-> Tambaram bus will be delayed today</li>
+            <li>-> Bus to chrompet is there at 5:00 pm</li>
+            <li>-> Please return a gold ring if u found in bus to office</li>
+            <li>-> Never put your hand out of window</li>
+            <li>-> Misbehave in bus is strictly prohibited</li>
+            
+            
+        </ul>
+      </div>
+      
+      <section class="search_area">
+        <h1>Check Bus Status</h1>
+        <br>
+        <div class="s_box">
+        <input id="search" type="text" placeholder="search by number.." name="search" maxlength="2">
+        <br>
+        <button type="submit" onclick="clicked()"><p>Check Status</p></button>
+        </div>
+      </section>
+       
+       <section class="buslist">
+        <h1>Bus List</h1>
+        <div class="bustable">
+            <table id="buses">
+                <tr>
+                    <th>Bus.No</th>
+                    <th>Depart Time</th>
+                    <th>Google Map</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>3:20 pm</td>
+                    <td ><a id="1" href="https://www.google.com/maps/dir/Chennai+Institute+of+Technology,+Sarathy+Nagar,+Kundrathur,+Chennai,+Tamil+Nadu/Kundrathur,+Chennai,+Tamil+Nadu/@12.9846623,80.0619975,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3a52f4d07355bab5:0xbb6063169c4ed4d9!2m2!1d80.0446669!2d12.9723756!1m5!1m1!1s0x3a528aa64f1f758b:0xbfca0f9632a31459!2m2!1d80.0972003!2d12.997668?hl=en" target="_blank">Direction</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3:24 pm</td>
+                    <td>map_link</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>3:10 pm</td>
+                    <td>map_link</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>3:11 pm</td>
+                    <td>map_link</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>3:30 pm</td>
+                    <td>map_link</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>3:35 pm</td>
+                    <td>map_link</td>
+                </tr>
+
+            </table>
+        </div>
+       </section>
+       <script src="home.js"></script>
+    </body>
+</html>

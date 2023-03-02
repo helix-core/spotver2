@@ -1,0 +1,208 @@
+/*logo design*/
+body{
+    background-image: url("58090.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fa{
+    position:relative;
+    
+}
+.mainlogo{
+    font-size:45px;
+    display:inline-block;
+    position:relative;
+    padding-right:80px;
+}
+.line1{
+    height:1px;
+    background:black;
+    width:100%;
+}
+.info{
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:relative;
+    display:inline-block;
+    
+}
+
+.missed{
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:relative;
+    display:inline-block;
+    
+}
+.contribute{
+    font-size:20px;
+    position:relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:inline-block;
+   
+    
+}
+.who{
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:inline-block;
+    
+}
+.feedback{
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:inline-block;
+}
+.header{
+    overflow:hidden;
+    background-color:rgb(199, 202, 202);
+}
+
+.header a:hover{
+    color:black;
+    background-color:rgba(53, 52, 52, 0.897);
+}
+.header a.active{
+    color:white;
+    background-color: black;
+}
+.header a{
+    text-decoration: none;
+    color:black;
+    float: left;
+    text-align: center;
+    padding:12px 13px;
+}
+.notice-board {
+    background-color: #ffffff;
+    border: 10px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius:6px;
+    border-color: rgb(144, 11, 161);
+  }
+  
+  
+  
+  
+  .notice-board ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+  }
+  
+  .notice-board li {
+    margin-bottom: 10px;
+  }
+  
+  .notice-board a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .notice-board a:hover {
+    text-decoration: underline;
+  }
+  
+.search_area h1{
+    text-align:center;
+    position:relative;
+    top:50px;
+    font-size:27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    height:2vh;
+    margin:0;
+}
+
+.s_box{
+    background-color:rgb(211, 125, 125);
+    width:350px;
+    border: 15px black;
+    padding:50px;
+    margin:30px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:25px;
+    
+}
+.s_box input{
+    border-radius:8px;
+}
+.s_box button{
+    background-color:white;
+    position:relative;
+    left:128px;
+    top:22px;
+    border-radius:5px;
+}
+.s_box button p{
+    font-family:monospace;
+}
+.s_box form{
+    position:relative;
+    left:5px;
+    
+}
+.s_box input{
+    width:350px;
+    height:40px;
+    position:relative;
+    left:-5px;
+    
+}
+.buslist h1{
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:27px;
+}
+.bustable table{
+    overflow:scroll;
+}
+#buses{
+    font-family:monospace;
+    border-collapse:collapse;
+    width:70%;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+#buses td,#buses th{
+    border:1px solid #ddd;
+    padding:8px;
+}
+#buses tr:nth-child(even){background-color:#f2f2f2;}
+#buses tr:hover{background-color:#ddd;}
+#buses th{
+    padding-top:12px;
+    padding-bottom:12px;
+    text-align:left;
+    background-color:#3d3d3c;
+    color:white;
+}
+button:hover{
+    background-color: rgb(119, 117, 117);
+}
+/*here the style is for the top most hover in the more info element*/
+
+/*here it is for the adjustment of screen to the devices*/
+/*@media only screen and (max-width:620px){
+    .menu, .main, .right{
+        width:100%;
+    }
+}*/
+@media only screen and (max-width: 600px) {
+    textarea{
+        background-color:aqua;
+    }
+}
+
+.header ul li{
+    margin-right: 50px;
+} 
